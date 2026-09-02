@@ -8,13 +8,13 @@ def obter_procedencia(code):
             return "Leste"
     elif code == 4:
             return "Oeste"
-    elif code == 5:
+    elif code in (5, 6):
             return "Nordeste"
-    elif code == 6:
+    elif code in (7, 8, 9):
             return "Sudeste"
-    elif code == 7:
+    elif code in range(10, 21):
             return "Centro-Oeste"
-    elif code == 8:
+    elif code in range(25, 31):
             return "Nordeste 2"
     else:
         return "Importado"
