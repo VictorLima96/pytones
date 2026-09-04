@@ -9,13 +9,3 @@ while x <= ni:
     x = x + 2
 
 input("Pressione Enter para fechar...")
-
-
-
-
-
-
-
-
-
-
